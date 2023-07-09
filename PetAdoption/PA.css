@@ -1,0 +1,40 @@
+.card{
+    height:600px;
+    width: 560px;
+    border: 3px solid black;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 10px 80px 10px 80px;
+    font-size: large;
+}
+img{
+    height: 300px;
+    width: 540px;
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+    border-radius: 5%;
+
+}
+span{
+    color: chocolate;
+}
+h3{
+    text-align:start;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: darkgoldenrod;
+}
+p{
+    text-align: left;
+    margin-left: 10px;
+}
+h4{
+    color:rgb(21, 182, 236);
+}
+#pets{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
