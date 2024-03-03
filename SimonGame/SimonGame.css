@@ -1,0 +1,39 @@
+.body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 8px solid black;
+    border-radius: 20%;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.red{
+    background-color: rgb(132, 29, 29);
+}
+
+.yellow{
+    background-color: rgb(149, 192, 10);
+}
+.pink{
+    background-color: rgb(52, 150, 47);
+}
+.blue{
+    background-color: rgb(26, 26, 104);
+}
+
+.flash{
+    background-color: white;
+}
