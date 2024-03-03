@@ -1,0 +1,550 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+    margin-right: 1rem;
+    height: 70px;
+    background-color: whitesmoke;
+}
+
+input{
+    background-color: white;
+}
+.search{
+    display: inline;
+    position: absolute;
+    top: 0.7rem;
+    margin: 0rem 3rem 1rem 15rem;
+    padding:0.5rem;
+    border-radius: 100px;
+    padding-right: 1rem;
+    border: 1px solid rgb(155, 155, 160);
+    cursor: pointer;
+    background-color: white;
+}
+
+.sear{
+    height: 1rem;
+    width: 30rem;
+    margin-left: 0.5rem;
+    padding: 0.1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+.search i{
+    color: grey;
+}
+.MHead img{
+    position: sticky;
+    top: 3rem;
+    left: 5rem;
+    height: 30px;
+    width: 100px;
+    padding-top: 0.5rem;
+    background-color: whitesmoke;
+}
+.btn_o{
+    position: absolute;
+    top: 0.7rem;
+    right:25rem;
+    /* border: none; */
+    font-size:11px;
+    padding: 9px 20px 7px 20px;
+    border-radius: 100px;
+    font-weight: 700;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+.btn_t{
+    position: absolute;
+    top: 0.3rem;
+    right:25rem;
+    font-size: 9px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    padding: 3px 5px;
+}
+.btn_thr{
+    position: absolute;
+    top: 0.7rem;
+    right:16.7rem;
+    /* border: none; */
+    font-size:11px;
+    background-color: white;
+    color: red;
+    border-radius: 100px;
+    padding: 9px 20px 7px 20px;
+    font-weight: 700;
+    border-color: red;
+}
+.langu span{
+    position: absolute;
+    top: 1rem;
+    right: 13.8rem;
+    font-size: 1.4rem;
+    color: rgb(166, 166, 169);
+}
+.bright span{
+    position: absolute;
+    right: 11rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(166, 166, 169);
+}
+.log {
+    position: absolute;
+    top: 1.2rem;
+    right:0rem;
+    width: 150px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left:-340rem;
+    bottom: 0;
+    width: 300px;
+    overflow: auto;
+    box-shadow: 2px 2px rgb(72, 70, 70);
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn_one i{
+    position: fixed;
+    top: 1.5rem;
+    left: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn_two i{
+    position: absolute;
+    top: 1.5rem;
+    left: 16.2rem;
+    cursor: pointer;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check{
+    display: none;
+}
+.menu .Logo i{
+    font-size: 25px;
+    padding: 1.2rem 0.5rem 1.3rem 2rem;
+}
+.menu .log-in{
+    display: flex;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 1.2rem;
+    left:5rem;
+    width: 150px;
+}
+.menu li {
+    margin: 1rem;
+    list-style: none;
+    line-height: 2.2rem;
+    font-size: 0.79rem;
+    font-weight: 700;
+    margin-left: 2.5rem;
+}
+h3{
+    padding-left:2.4rem ;
+}
+.Home{
+    color:red;
+}
+.lang{
+    line-height: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+}
+.foot{
+    height: 30px;
+}
+.line{
+    width: 100%;
+    height: 30%;
+    border-top:1px solid rgb(97, 92, 92);
+    opacity: 0.2;
+}
+.Gaana{
+    display: flex;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+    background-color: white;
+} 
+
+.All{
+    padding-left: 15rem;
+    margin: 0rem 1rem 1rem 1rem;
+    text-decoration-color: red;
+    text-decoration-line: underline;
+}
+.TrendingS{
+    margin: 0rem 1rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.NewS{
+    margin: 0rem 1rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.OldS{
+    margin: 0rem 1rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.Mood{
+    margin: 0rem 3rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.arrow{
+    position: fixed;
+}
+.Album{
+    margin: 0rem 2rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.Radios{
+    margin: 0rem 2rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.Podcast{
+    margin: 0rem 2rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.My{
+    margin: 0rem 2rem 1rem 1rem;
+    text-decoration-color: red;
+}
+.mainCont{
+    width: 100%;
+    position:absolute;
+    top: 8rem;
+    margin-top: rem;
+    flex:1;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    margin:0.5rem 0.5rem 1rem 0.5rem;
+    height: 15rem;
+    box-shadow: 2px 2px 10px rgb(124, 129, 139);
+
+}
+.arrow1 span{
+    font-weight: 900;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.arrow2 span{
+    font-weight: 900;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.StartCard{
+    margin-left: 8rem;
+}
+.StartCard h2{
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    font-size: 24px;
+    display: inline-block;
+
+    
+}
+.StartCard .See_All{
+    display:inline;
+    color: red;
+    margin-left: 64.5rem;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.card_Cont {
+    margin-left:9rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+    margin-right: 3rem;
+}
+.list_card{
+    width: 400px;
+    height: 70px;
+    list-style: none;
+    margin-right: 2rem;    
+    background-color: rgb(233, 233, 234);
+    margin-bottom: 2rem;
+} 
+.card-img1{
+    display: inline-block;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+.card-img2{
+    display: inline-block;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+.card-img3{
+    display: inline-block;
+    height: 50px;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+.card-img4{
+    display: inline-block;
+    height: 50px;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+.card-img5{
+    display: inline-block;
+    height: 50px;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+.card-img6{
+    display: inline-block;
+    height: 50px;
+    width: 12%;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem; 
+}
+
+.card-details{
+    align-items: center;
+    display: inline-block;
+}
+.card-title{
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+.card-info{
+    font-size: 0.75rem;
+    font-weight: 700;
+    opacity: 0.5;
+    margin-left: 0.5rem;
+}
+.card_Cont2{
+    margin-left:9rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+}
+.list_card2{
+    width: 150px;
+    height: 120px;
+    list-style: none;
+    margin-right: 2rem;    
+    margin-bottom: 2rem;
+    font-weight: 600;
+} 
+.StartCard2 h2{
+    margin-top: 6rem;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-left: 9rem;
+}
+
+.StartCard2 .See_All{
+    display:inline;
+    color: red;
+    margin-left: 69rem;
+    font-weight: 500;
+    font-size: 12px;
+}
+.cardimg1{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardimg2{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardimg3{
+    height: 150px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardimg4{
+    height: 150px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardimg5{
+    height: 150px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.cardimg6{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.mainfooter .Last{
+    margin-left: 25rem;
+    margin-bottom: 1rem;
+}
+.mainfooter .Last2{
+    width: 800px;
+    margin-left: 15rem;
+    opacity: 0.5;
+}
+.mainfooter .Last3{
+    width: 800px;
+    margin-left: 18rem;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+}
+.footer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    box-shadow: 2px 2px 10px black;
+}
+
+ .player-img{
+    height: 40px;
+    display: inline;
+    padding: 1rem; 
+}
+.play-head{
+    width: 25%;
+    position: absolute;
+    top: 1.2rem;
+    left: 4rem;
+}
+.play-subhead{
+    width: 15%;
+    position: absolute;
+    top: 2.4rem;
+    left: 4rem;
+    font-size: 10px;
+    opacity: 0.7;
+}
+.heart
+{
+    position: absolute;
+    top: 1.5rem;
+    left: 15rem;
+    opacity: 0.7;
+}
+.more{
+    position: absolute;
+    top: 1.5rem;
+    left: 18rem;
+}
+.Player{
+    height: 40px;
+    margin-bottom: 1rem;
+    margin-left: 32rem;
+}
+
+.audio{
+    position: absolute;
+    top: 1.5rem;
+    right: 20rem;
+}
+.quality{
+    position: absolute;
+    top: 1.3rem;
+    right: 14rem;
+    border-radius: 100px;
+    padding: 0.3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: white;
+    border-color: red;
+    font-size: 12px;
+}
+.Next{
+    position: absolute;
+    top: 1.2rem;
+    right: 9.4rem;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 300;
+}
+.Premium{
+    position: absolute;
+    top: 2.3rem;
+    right: 8.5rem;
+    border-radius: 100px;
+    border-color: white;
+    background-color: rgb(228, 59, 85);
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 10px;
+    font-weight: 600;
+}
+.Up_Next{
+    position: absolute;
+    top: 2.3rem;
+    right: 4rem;
+    opacity: 0.7;
+}
+.expand{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    opacity: 0.8;
+}
+.Progress_Bar{
+    position: absolute;
+    top: 0rem;
+    left:0rem;
+    appearance: none;
+    width: 100%;
+}
+.Progress_Bar::-webkit-slider-runnable-track{
+    background-color: rgb(213, 207, 207);
+    height: 0.21rem;
+    
+}
+.Progress_Bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: rgb(255, 0, 0);
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-top: -0.5rem;
+}
